@@ -418,7 +418,7 @@ class Video(object):
         SHA-1 digest:           95E7D9F9359D8D7BA4EC441BC8CB3830A58EE102
         Container format:       Matroska
         Duration:               00:00:02.08
-        Pixel dimensions:       128x72
+        Dimensions:       128x72
         Display aspect ratio:   16:9
         Scan type:              Progressive scan
         Frame rate:             25 fps
@@ -459,7 +459,7 @@ class Video(object):
             lines.append("Duration:               Not available")
         # dimension
         if self.dimension_text:
-            lines.append("Pixel dimensions:       %s" % self.dimension_text)
+            lines.append("Dimensions:       %s" % self.dimension_text)
         # aspect ratio
         if self.dar_text:
             lines.append("Display aspect ratio:   %s" % self.dar_text)
