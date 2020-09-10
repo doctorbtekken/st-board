@@ -418,7 +418,7 @@ class Video(object):
         SHA-1 digest:           95E7D9F9359D8D7BA4EC441BC8CB3830A58EE102
         Container format:       Matroska
         Duration:               00:00:02.08
-        Dimensions:       128x72
+        Dimensions:             128x72
         Display aspect ratio:   16:9
         Scan type:              Progressive scan
         Frame rate:             25 fps
