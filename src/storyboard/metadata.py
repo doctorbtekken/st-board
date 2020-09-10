@@ -459,7 +459,7 @@ class Video(object):
             lines.append("Duration:               Not available")
         # dimension
         if self.dimension_text:
-            lines.append("Dimensions:       %s" % self.dimension_text)
+            lines.append("Dimensions:               %s" % self.dimension_text)
         # aspect ratio
         if self.dar_text:
             lines.append("Display aspect ratio:   %s" % self.dar_text)
